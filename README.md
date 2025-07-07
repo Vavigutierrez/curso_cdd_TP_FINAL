@@ -49,10 +49,8 @@ resolucion/
 │   ├── 03_eda.R                           # Análisis exploratorio
 │   ├── 04_ml_modeling.R                   # Machine learning
 │   └── 05_classification_models_gender.R  # Comparación de modelos ML
-
-├── presentation/                          # Materiales de presentación
-│   └── final_presentation.pdf             # Presentación en PDF
-└── README.md                              # Este archivo
+└── presentation/                          # Materiales de presentación
+    └── TP FINAL - CDD 2025 (Valentina Gutiérrez Curátola).pdf             # Presentación en PDF
 ```
 
 ---
