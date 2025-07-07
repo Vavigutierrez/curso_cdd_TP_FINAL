@@ -1,0 +1,4 @@
+"Hipotesis","Algoritmo","Metrica_Principal","Resultado","Insight_Principal"
+"H1: Predicción Exportadores","Random Forest (Supervisado)","Accuracy: 0.788 | AUC: 0.785","✅ Exitoso","Tamaño e industria predicen exportación"
+"H2: Predicción Geográfica Género","Regresión Logística (Supervisado)","Accuracy: 0.552 | AUC: 0.568","⚠️ Mejorable","Geografía influye moderadamente en participación femenina"
+"H3: Identificación Sector Salud","Random Forest (Supervisado)","Accuracy: 0.74 | AUC: 0.869","✅ Exitoso","Sector salud altamente identificable por alta participación femenina"

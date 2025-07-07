@@ -1,0 +1,33 @@
+=== RESUMEN DE CALIDAD DE DATOS ===
+Dataset: depto_actividad 
+Fecha: 2025-07-05 21:21:57 
+
+── Data Summary ────────────────────────
+                           Values
+Name                       datos 
+Number of rows             316697
+Number of columns          12    
+_______________________          
+Column type frequency:           
+  character                4     
+  numeric                  8     
+________________________         
+Group variables            None  
+
+── Variable type: character ─────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 departamento          0             1   4  34     0      445          0
+2 provincia             0             1   4  19     0       24          0
+3 letra                 0             1   1   1     0       21          0
+4 genero                0             1   7   7     0        2          0
+
+── Variable type: numeric ───────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable         n_missing complete_rate       mean         sd    p0    p25    p50    p75   p100 hist 
+1 anio                          0             1   2022.         0.500  2021   2021   2022   2022   2022 ▇▁▁▁▇
+2 in_departamentos              0             1  29705.     29312.     2007   6413  14091  54028  94014 ▇▂▂▂▂
+3 provincia_id                  0             1     29.5       29.4       2      6     14     54     94 ▇▂▂▂▂
+4 clae6                         0             1 472099.    251757.    11111 310010 472160 620900 990000 ▃▂▇▂▂
+5 clae2                         0             1     46.9       25.2       1     31     47     62     99 ▃▂▇▂▂
+6 Empleo                        0             1     40.8      222.        1      2      6     20  23097 ▇▁▁▁▁
+7 Establecimientos              0             1      5.93      25.7       1      1      2      4   3318 ▇▁▁▁▁
+8 empresas_exportadoras         0             1      0.524      2.67      0      0      0      0    233 ▇▁▁▁▁

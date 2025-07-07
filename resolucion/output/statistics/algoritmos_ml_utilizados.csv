@@ -1,0 +1,4 @@
+"Algoritmo","Tipo","Aplicacion","Justificacion"
+"Random Forest","Supervisado","Clasificación Exportadores","Maneja variables mixtas, robusto"
+"Regresión Logística","Supervisado","Predicción Geográfica","Interpretable, coeficientes claros, asunciones geográficas"
+"Random Forest","Supervisado","Identificación Salud","Identifica características distintivas"

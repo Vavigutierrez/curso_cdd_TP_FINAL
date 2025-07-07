@@ -1,0 +1,32 @@
+=== RESUMEN DE CALIDAD DE DATOS ===
+Dataset: establecimientos 
+Fecha: 2025-07-05 21:22:02 
+
+── Data Summary ────────────────────────
+                           Values 
+Name                       datos  
+Number of rows             1408470
+Number of columns          11     
+_______________________           
+Column type frequency:            
+  character                2      
+  numeric                  9      
+________________________          
+Group variables            None   
+
+── Variable type: character ─────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 cuit                  0             1  12  14     0   590986          0
+2 empleo                0             1   6  10     0        5          0
+
+── Variable type: numeric ───────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable      n_missing complete_rate       mean         sd      p0      p25        p50        p75     p100 hist 
+1 sucursal                   0             1      7.80      45.9       1        1        1          1       1247   ▇▁▁▁▁
+2 anio                       0             1   2022.         0.500  2021     2021     2022       2022       2022   ▇▁▁▁▇
+3 lat                        0             1    -33.8        3.90    -54.8    -34.7    -34.6      -32.2      -21.9 ▁▁▂▇▁
+4 lon                        0             1    -61.1        3.62    -73.2    -64.1    -59.0      -58.4      -53.6 ▁▂▂▇▁
+5 clae6                      0             1 518165.    271024.    11111   432190   477310     692000     990000   ▃▁▇▂▃
+6 in_departamentos           0             1  25820.     29420.     2007     6070     6805      50028      94014   ▇▁▁▁▂
+7 provincia_id               0             1     25.6       29.5       2        6        6         50         94   ▇▁▁▁▂
+8 quintil                    0             1      0.131      0.719     0        0        0          0          5   ▇▁▁▁▁
+9 proporcion_mujeres         0             1      0.352      0.405     0        0        0.146      0.727      1   ▇▂▂▁▃

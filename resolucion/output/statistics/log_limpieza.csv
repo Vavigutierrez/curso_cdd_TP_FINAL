@@ -1,0 +1,5 @@
+etapa,descripcion,registros_antes,registros_despues,registros_removidos,porcentaje_removido,timestamp
+Actividades,Limpieza texto y eliminación duplicados,951,951,0,0,2025-07-06T00:23:46Z
+Departamentos,Estandarización texto y validación,527,527,0,0,2025-07-06T00:23:46Z
+Depto-Actividad-Género,Estandarización y validación,316697,316697,0,0,2025-07-06T00:23:46Z
+Establecimientos,Validación coordenadas y estandarización,1408470,1366827,41643,2.96,2025-07-06T00:23:47Z

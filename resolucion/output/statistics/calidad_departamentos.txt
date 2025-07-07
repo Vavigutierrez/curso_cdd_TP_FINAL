@@ -1,0 +1,25 @@
+=== RESUMEN DE CALIDAD DE DATOS ===
+Dataset: departamentos 
+Fecha: 2025-07-05 21:21:55 
+
+── Data Summary ────────────────────────
+                           Values
+Name                       datos 
+Number of rows             527   
+Number of columns          4     
+_______________________          
+Column type frequency:           
+  character                2     
+  numeric                  2     
+________________________         
+Group variables            None  
+
+── Variable type: character ─────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 departamento          0             1   4  34     0      445          0
+2 provincia             0             1   4  19     0       24          0
+
+── Variable type: numeric ───────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable    n_missing complete_rate    mean      sd   p0   p25   p50    p75  p100 hist 
+1 provincia_id             0             1    36.5    29.0    2    6     30    62     94 ▇▃▃▃▃
+2 in_departamentos         0             1 36664.  28848.  2007 6762. 30049 62038. 94014 ▇▃▃▃▃

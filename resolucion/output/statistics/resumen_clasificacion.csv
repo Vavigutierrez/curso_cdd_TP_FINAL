@@ -1,0 +1,7 @@
+Metrica,Valor
+Total observaciones,"1,366,827"
+Baseline accuracy,63.19%
+Mejor modelo,Regresion Logistica
+Mejor AUC,0.6493
+Mejora sobre baseline,1.01 pp
+Variable más importante,Sector (según Random Forest)

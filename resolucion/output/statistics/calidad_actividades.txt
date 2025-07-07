@@ -1,0 +1,27 @@
+=== RESUMEN DE CALIDAD DE DATOS ===
+Dataset: actividades 
+Fecha: 2025-07-05 21:21:55 
+
+── Data Summary ────────────────────────
+                           Values
+Name                       datos 
+Number of rows             951   
+Number of columns          6     
+_______________________          
+Column type frequency:           
+  character                4     
+  numeric                  2     
+________________________         
+Group variables            None  
+
+── Variable type: character ─────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 letra                 0             1   1   1     0       21          0
+2 clae6_desc            0             1  10 519     0      951          0
+3 clae2_desc            0             1   7  82     0       87          0
+4 letra_desc            0             1   9  99     0       21          0
+
+── Variable type: numeric ───────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate     mean       sd    p0    p25    p50    p75   p100 hist 
+1 clae6                 0             1 417342.  263560.  11111 201185 463152 561035 990000 ▆▃▇▃▂
+2 clae2                 0             1     41.4     26.4     1     20     46     56     99 ▆▃▇▃▂
