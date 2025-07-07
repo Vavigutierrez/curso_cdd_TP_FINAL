@@ -217,14 +217,13 @@ empleo, establecimientos, empresas_exportadoras
 - **Total de establecimientos analizados:** ~50,000+
 - **Cobertura geográfica:** 24 provincias, 500+ departamentos
 - **Actividades económicas:** 200+ códigos CLAE6
-- **Participación femenina promedio:** ~35-45%
+- **Participación femenina promedio:** ~35%
 - **Tasa de exportadores:** ~15-25%
 
 ### Hallazgos del Machine Learning
-- **Clusters óptimos identificados:** 3-4 grupos principales
+- **Clusters óptimos identificados:** 3 grupos principales
 - **Mejor modelo de clasificación:** Random Forest (AUC > 0.70)
 - **Variables más predictivas:** Tamaño de empleo, sector económico, ubicación
-- **Varianza explicada PCA:** 60-70% en primeros 2 componentes
 
 ### Patrones Identificados
 1. **Concentración geográfica:** Región Centro concentra >50% establecimientos
@@ -239,10 +238,6 @@ empleo, establecimientos, empresas_exportadoras
 ### 📊 Análisis Unidimensional
 - **Histogramas y boxplots de empleo y género:** Distribución detallada de la participación femenina por categorías de empleo, identificando patrones sectoriales y brechas de género
 - **Análisis de quintiles de exportación:** Visualización de la intensidad exportadora con distribución geográfica y sectorial
-
-### 🗺️ Visualización Geográfica
-- **Mapas interactivos de establecimientos:** Implementación con Leaflet que permite explorar la distribución espacial con clustering automático y filtros por sector/región
-- **Heatmaps de concentración provincial:** Identificación visual de clusters geográficos y especialización regional
 
 ### 🔬 Machine Learning Visual
 - **Clustering sectorial con K-means:** Visualización de grupos de establecimientos con características similares, incluyendo análisis de silueta y caracterización de clusters
